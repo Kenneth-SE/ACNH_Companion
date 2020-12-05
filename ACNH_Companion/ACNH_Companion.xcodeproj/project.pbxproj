@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40005987249BE27200A382F0 /* VillagerDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40005986249BE27200A382F0 /* VillagerDetailsTableViewCell.swift */; };
+		40005989249BE29300A382F0 /* VillagerDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40005988249BE29300A382F0 /* VillagerDetailsTableViewController.swift */; };
+		401CFE2024ADDF4C004BB43F /* GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CFE1F24ADDF4C004BB43F /* GoalsTableViewController.swift */; };
+		401CFE2B24AE06D2004BB43F /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CFE2924AE06D2004BB43F /* Goal+CoreDataClass.swift */; };
+		401CFE2C24AE06D2004BB43F /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CFE2A24AE06D2004BB43F /* Goal+CoreDataProperties.swift */; };
+		401CFE2E24AE0F73004BB43F /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CFE2D24AE0F73004BB43F /* Priority.swift */; };
+		401CFE3024AE112B004BB43F /* CritterCurrentlyAvailableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CFE2F24AE112B004BB43F /* CritterCurrentlyAvailableTableViewCell.swift */; };
+		40258A8E24927C9100CCB674 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40258A8D24927C9100CCB674 /* StringExtensions.swift */; };
+		402C6038249B39A4003FDF40 /* Villager+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6034249B39A4003FDF40 /* Villager+CoreDataClass.swift */; };
+		402C6039249B39A4003FDF40 /* Villager+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6035249B39A4003FDF40 /* Villager+CoreDataProperties.swift */; };
+		402C6044249B44C3003FDF40 /* Checklist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6040249B44C3003FDF40 /* Checklist+CoreDataClass.swift */; };
+		402C6045249B44C3003FDF40 /* Checklist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6041249B44C3003FDF40 /* Checklist+CoreDataProperties.swift */; };
+		402C6046249B44C3003FDF40 /* Rock+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6042249B44C3003FDF40 /* Rock+CoreDataClass.swift */; };
+		402C6047249B44C3003FDF40 /* Rock+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6043249B44C3003FDF40 /* Rock+CoreDataProperties.swift */; };
+		402C604B249B63E2003FDF40 /* MuseumChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C604A249B63E2003FDF40 /* MuseumChart.swift */; };
+		402C604D249B77E8003FDF40 /* DonationStatistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C604C249B77E8003FDF40 /* DonationStatistic.swift */; };
+		402C6051249B7993003FDF40 /* DonationStatisticsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402C6050249B7993003FDF40 /* DonationStatisticsTableViewCell.swift */; };
+		403043B42493A779003A15D1 /* VillagerCheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403043B32493A779003A15D1 /* VillagerCheckBoxTableViewCell.swift */; };
+		403043BA2493B797003A15D1 /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403043B92493B797003A15D1 /* ChecklistTableViewCell.swift */; };
+		4035B44424933226002DCFEB /* BugData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035B44324933226002DCFEB /* BugData.swift */; };
+		4035B45D24936EF4002DCFEB /* Bug+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035B45724936EF4002DCFEB /* Bug+CoreDataClass.swift */; };
+		4035B45E24936EF4002DCFEB /* Bug+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035B45824936EF4002DCFEB /* Bug+CoreDataProperties.swift */; };
+		4035B45F24936EF4002DCFEB /* Fish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035B45924936EF4002DCFEB /* Fish+CoreDataClass.swift */; };
+		4035B46024936EF4002DCFEB /* Fish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4035B45A24936EF4002DCFEB /* Fish+CoreDataProperties.swift */; };
+		4039B8552475F6EA0013B2C4 /* FishData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039B8542475F6EA0013B2C4 /* FishData.swift */; };
+		4039B85A247609200013B2C4 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039B859247609200013B2C4 /* MulticastDelegate.swift */; };
+		4039B85C247609B80013B2C4 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039B85B247609B80013B2C4 /* DatabaseProtocol.swift */; };
+		4039B86024760A9E0013B2C4 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039B85F24760A9E0013B2C4 /* CoreDataController.swift */; };
+		403B0D90246F7DE6008B11F6 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0D8F246F7DE6008B11F6 /* HomeTableViewController.swift */; };
+		403B0D96246F7E95008B11F6 /* MuseumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0D95246F7E95008B11F6 /* MuseumTableViewController.swift */; };
+		403B0D98246F7EB4008B11F6 /* VillagersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0D97246F7EB4008B11F6 /* VillagersTableViewController.swift */; };
+		403B0D9A246F7ECA008B11F6 /* IslandTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0D99246F7ECA008B11F6 /* IslandTableViewController.swift */; };
+		403B0D9E246F8CB4008B11F6 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0D9D246F8CB4008B11F6 /* CategoryTableViewCell.swift */; };
+		403B0DA4246F8DD0008B11F6 /* CritterDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0DA3246F8DD0008B11F6 /* CritterDetailsTableViewCell.swift */; };
+		403B0DA6246F8DF8008B11F6 /* CritterAvailabilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0DA5246F8DF8008B11F6 /* CritterAvailabilityTableViewCell.swift */; };
+		403B0DA9246F9119008B11F6 /* CollectableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0DA8246F9119008B11F6 /* CollectableTableViewCell.swift */; };
+		403B0DAB246F9F9F008B11F6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B0DAA246F9F9F008B11F6 /* Category.swift */; };
+		4049F2E3246FF8A900CA5CAF /* VillagerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049F2E2246FF8A900CA5CAF /* VillagerTableViewCell.swift */; };
+		40608987246EAD5A00DBF0A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40608986246EAD5A00DBF0A1 /* AppDelegate.swift */; };
+		40608989246EAD5A00DBF0A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40608988246EAD5A00DBF0A1 /* SceneDelegate.swift */; };
+		40608990246EAD5A00DBF0A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4060898E246EAD5A00DBF0A1 /* Main.storyboard */; };
+		40608992246EAD5B00DBF0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40608991246EAD5B00DBF0A1 /* Assets.xcassets */; };
+		40608995246EAD5B00DBF0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40608993246EAD5B00DBF0A1 /* LaunchScreen.storyboard */; };
+		4084ACA9249C8889005A203E /* Settings+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084ACA7249C8889005A203E /* Settings+CoreDataClass.swift */; };
+		4084ACAA249C8889005A203E /* Settings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084ACA8249C8889005A203E /* Settings+CoreDataProperties.swift */; };
+		4084ACAF249CA1A8005A203E /* AllEventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084ACAE249CA1A8005A203E /* AllEventsTableViewCell.swift */; };
+		4084ACB1249CA1C1005A203E /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084ACB0249CA1C1005A203E /* EventTableViewCell.swift */; };
+		4084ACB3249CA6DD005A203E /* ACNHEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084ACB2249CA6DD005A203E /* ACNHEvent.swift */; };
+		409148AE2495DC8A00791CA9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409148AD2495DC8A00791CA9 /* ImageTableViewCell.swift */; };
+		409148B02495FB0300791CA9 /* RockCheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409148AF2495FB0300791CA9 /* RockCheckBoxTableViewCell.swift */; };
+		409148B72496461400791CA9 /* RockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409148B62496461400791CA9 /* RockCollectionViewCell.swift */; };
+		409148BB2496651900791CA9 /* VillagerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409148BA2496651900791CA9 /* VillagerCollectionViewCell.swift */; };
+		40B66D852475119D007D5F59 /* CritterDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B66D842475119D007D5F59 /* CritterDetailsTableViewController.swift */; };
+		40B66D89247515DF007D5F59 /* CritterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B66D88247515DF007D5F59 /* CritterTableViewController.swift */; };
+		40B66D912475752F007D5F59 /* ACNH_Companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40B66D8F2475752F007D5F59 /* ACNH_Companion.xcdatamodeld */; };
+		40CA8BA324AEF81900A6A2FB /* GoalEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA8BA224AEF81900A6A2FB /* GoalEditorViewController.swift */; };
+		40CA8BA524AF240600A6A2FB /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA8BA424AF240600A6A2FB /* AboutTableViewController.swift */; };
+		40CA8BA724AF243100A6A2FB /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA8BA624AF243100A6A2FB /* Resource.swift */; };
+		40FED7F324768BDC00766A8C /* VillagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FED7F224768BDC00766A8C /* VillagerData.swift */; };
+		A102E0DB2E9641204122917B /* Pods_ACNH_Companion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3222A53D3F78B561555EAF9 /* Pods_ACNH_Companion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40005986249BE27200A382F0 /* VillagerDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		40005988249BE29300A382F0 /* VillagerDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetailsTableViewController.swift; sourceTree = "<group>"; };
+		401CFE1F24ADDF4C004BB43F /* GoalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsTableViewController.swift; sourceTree = "<group>"; };
+		401CFE2924AE06D2004BB43F /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		401CFE2A24AE06D2004BB43F /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		401CFE2D24AE0F73004BB43F /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		401CFE2F24AE112B004BB43F /* CritterCurrentlyAvailableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterCurrentlyAvailableTableViewCell.swift; sourceTree = "<group>"; };
+		40258A8D24927C9100CCB674 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		402C6034249B39A4003FDF40 /* Villager+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Villager+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		402C6035249B39A4003FDF40 /* Villager+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Villager+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		402C6040249B44C3003FDF40 /* Checklist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checklist+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		402C6041249B44C3003FDF40 /* Checklist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Checklist+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		402C6042249B44C3003FDF40 /* Rock+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rock+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		402C6043249B44C3003FDF40 /* Rock+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rock+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		402C604A249B63E2003FDF40 /* MuseumChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumChart.swift; sourceTree = "<group>"; };
+		402C604C249B77E8003FDF40 /* DonationStatistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationStatistic.swift; sourceTree = "<group>"; };
+		402C6050249B7993003FDF40 /* DonationStatisticsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationStatisticsTableViewCell.swift; sourceTree = "<group>"; };
+		403043B32493A779003A15D1 /* VillagerCheckBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerCheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		403043B92493B797003A15D1 /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
+		4035B44324933226002DCFEB /* BugData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugData.swift; sourceTree = "<group>"; };
+		4035B45724936EF4002DCFEB /* Bug+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bug+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		4035B45824936EF4002DCFEB /* Bug+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bug+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		4035B45924936EF4002DCFEB /* Fish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fish+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		4035B45A24936EF4002DCFEB /* Fish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fish+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		4039B8542475F6EA0013B2C4 /* FishData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishData.swift; sourceTree = "<group>"; };
+		4039B859247609200013B2C4 /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		4039B85B247609B80013B2C4 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		4039B85F24760A9E0013B2C4 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		403B0D8F246F7DE6008B11F6 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		403B0D95246F7E95008B11F6 /* MuseumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTableViewController.swift; sourceTree = "<group>"; };
+		403B0D97246F7EB4008B11F6 /* VillagersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagersTableViewController.swift; sourceTree = "<group>"; };
+		403B0D99246F7ECA008B11F6 /* IslandTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandTableViewController.swift; sourceTree = "<group>"; };
+		403B0D9D246F8CB4008B11F6 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		403B0DA3246F8DD0008B11F6 /* CritterDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		403B0DA5246F8DF8008B11F6 /* CritterAvailabilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterAvailabilityTableViewCell.swift; sourceTree = "<group>"; };
+		403B0DA8246F9119008B11F6 /* CollectableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableTableViewCell.swift; sourceTree = "<group>"; };
+		403B0DAA246F9F9F008B11F6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4049F2E2246FF8A900CA5CAF /* VillagerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerTableViewCell.swift; sourceTree = "<group>"; };
+		40608983246EAD5A00DBF0A1 /* ACNH_Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACNH_Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40608986246EAD5A00DBF0A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40608988246EAD5A00DBF0A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4060898F246EAD5A00DBF0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40608991246EAD5B00DBF0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40608994246EAD5B00DBF0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40608996246EAD5B00DBF0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4084ACA7249C8889005A203E /* Settings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		4084ACA8249C8889005A203E /* Settings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		4084ACAE249CA1A8005A203E /* AllEventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEventsTableViewCell.swift; sourceTree = "<group>"; };
+		4084ACB0249CA1C1005A203E /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		4084ACB2249CA6DD005A203E /* ACNHEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACNHEvent.swift; sourceTree = "<group>"; };
+		409148AD2495DC8A00791CA9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		409148AF2495FB0300791CA9 /* RockCheckBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockCheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		409148B62496461400791CA9 /* RockCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockCollectionViewCell.swift; sourceTree = "<group>"; };
+		409148BA2496651900791CA9 /* VillagerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerCollectionViewCell.swift; sourceTree = "<group>"; };
+		40B66D842475119D007D5F59 /* CritterDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterDetailsTableViewController.swift; sourceTree = "<group>"; };
+		40B66D88247515DF007D5F59 /* CritterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritterTableViewController.swift; sourceTree = "<group>"; };
+		40B66D902475752F007D5F59 /* ACNH_Companion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ACNH_Companion.xcdatamodel; sourceTree = "<group>"; };
+		40CA8BA224AEF81900A6A2FB /* GoalEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalEditorViewController.swift; sourceTree = "<group>"; };
+		40CA8BA424AF240600A6A2FB /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		40CA8BA624AF243100A6A2FB /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		40FED7F224768BDC00766A8C /* VillagerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerData.swift; sourceTree = "<group>"; };
+		7A061E3E4B165BD3A58598A4 /* Pods-ACNH_Companion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNH_Companion.release.xcconfig"; path = "Target Support Files/Pods-ACNH_Companion/Pods-ACNH_Companion.release.xcconfig"; sourceTree = "<group>"; };
+		7D336F1BB463F436BC746197 /* Pods-ACNH_Companion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACNH_Companion.debug.xcconfig"; path = "Target Support Files/Pods-ACNH_Companion/Pods-ACNH_Companion.debug.xcconfig"; sourceTree = "<group>"; };
+		E3222A53D3F78B561555EAF9 /* Pods_ACNH_Companion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACNH_Companion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40608980246EAD5A00DBF0A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102E0DB2E9641204122917B /* Pods_ACNH_Companion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401CFE1824ADD9D2004BB43F /* Island */ = {
+			isa = PBXGroup;
+			children = (
+				401CFE2F24AE112B004BB43F /* CritterCurrentlyAvailableTableViewCell.swift */,
+			);
+			path = Island;
+			sourceTree = "<group>";
+		};
+		401CFE2124ADDF54004BB43F /* Island */ = {
+			isa = PBXGroup;
+			children = (
+				403B0D99246F7ECA008B11F6 /* IslandTableViewController.swift */,
+				401CFE1F24ADDF4C004BB43F /* GoalsTableViewController.swift */,
+				40CA8BA224AEF81900A6A2FB /* GoalEditorViewController.swift */,
+			);
+			path = Island;
+			sourceTree = "<group>";
+		};
+		401CFE2224ADDF6D004BB43F /* Museum */ = {
+			isa = PBXGroup;
+			children = (
+				403B0D95246F7E95008B11F6 /* MuseumTableViewController.swift */,
+				40B66D842475119D007D5F59 /* CritterDetailsTableViewController.swift */,
+				40B66D88247515DF007D5F59 /* CritterTableViewController.swift */,
+			);
+			path = Museum;
+			sourceTree = "<group>";
+		};
+		40258A8C24927C5800CCB674 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40258A8D24927C9100CCB674 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		403043B22493A519003A15D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4084ACAC249C9F95005A203E /* Checklist */,
+				4084ACAD249C9FB1005A203E /* Museum Statistics */,
+				4084ACAB249C9F8B005A203E /* Events */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4039B856247608CE0013B2C4 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4039B85B247609B80013B2C4 /* DatabaseProtocol.swift */,
+				4039B859247609200013B2C4 /* MulticastDelegate.swift */,
+				4039B85F24760A9E0013B2C4 /* CoreDataController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		403B0D91246F7DEE008B11F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				401CFE2224ADDF6D004BB43F /* Museum */,
+				401CFE2124ADDF54004BB43F /* Island */,
+				403B0D8F246F7DE6008B11F6 /* HomeTableViewController.swift */,
+				403B0D97246F7EB4008B11F6 /* VillagersTableViewController.swift */,
+				40005988249BE29300A382F0 /* VillagerDetailsTableViewController.swift */,
+				40CA8BA424AF240600A6A2FB /* AboutTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		403B0D92246F7E3B008B11F6 /* Decoders */ = {
+			isa = PBXGroup;
+			children = (
+				4039B8542475F6EA0013B2C4 /* FishData.swift */,
+				40FED7F224768BDC00766A8C /* VillagerData.swift */,
+				4035B44324933226002DCFEB /* BugData.swift */,
+			);
+			path = Decoders;
+			sourceTree = "<group>";
+		};
+		403B0D93246F7E43008B11F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				401CFE1824ADD9D2004BB43F /* Island */,
+				403043B22493A519003A15D1 /* Home */,
+				403B0DA7246F8E03008B11F6 /* Museum */,
+				403B0D9D246F8CB4008B11F6 /* CategoryTableViewCell.swift */,
+				4049F2E2246FF8A900CA5CAF /* VillagerTableViewCell.swift */,
+				40005986249BE27200A382F0 /* VillagerDetailsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		403B0DA7246F8E03008B11F6 /* Museum */ = {
+			isa = PBXGroup;
+			children = (
+				403B0DA8246F9119008B11F6 /* CollectableTableViewCell.swift */,
+				403B0DA3246F8DD0008B11F6 /* CritterDetailsTableViewCell.swift */,
+				403B0DA5246F8DF8008B11F6 /* CritterAvailabilityTableViewCell.swift */,
+			);
+			path = Museum;
+			sourceTree = "<group>";
+		};
+		4060897A246EAD5A00DBF0A1 = {
+			isa = PBXGroup;
+			children = (
+				40608985246EAD5A00DBF0A1 /* ACNH_Companion */,
+				40608984246EAD5A00DBF0A1 /* Products */,
+				E83BF01B886DB2982FB1F440 /* Pods */,
+				7F5B22B2720D3AA2A9D3163A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40608984246EAD5A00DBF0A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40608983246EAD5A00DBF0A1 /* ACNH_Companion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40608985246EAD5A00DBF0A1 /* ACNH_Companion */ = {
+			isa = PBXGroup;
+			children = (
+				40258A8C24927C5800CCB674 /* Extensions */,
+				40B66D9224757E85007D5F59 /* Objects */,
+				4039B856247608CE0013B2C4 /* Database */,
+				40B66D8E247574DD007D5F59 /* DataModel */,
+				403B0D93246F7E43008B11F6 /* Cells */,
+				403B0D92246F7E3B008B11F6 /* Decoders */,
+				403B0D91246F7DEE008B11F6 /* ViewControllers */,
+				40608986246EAD5A00DBF0A1 /* AppDelegate.swift */,
+				40608988246EAD5A00DBF0A1 /* SceneDelegate.swift */,
+				4060898E246EAD5A00DBF0A1 /* Main.storyboard */,
+				40608991246EAD5B00DBF0A1 /* Assets.xcassets */,
+				40608993246EAD5B00DBF0A1 /* LaunchScreen.storyboard */,
+				40608996246EAD5B00DBF0A1 /* Info.plist */,
+			);
+			path = ACNH_Companion;
+			sourceTree = "<group>";
+		};
+		4084ACAB249C9F8B005A203E /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4084ACAE249CA1A8005A203E /* AllEventsTableViewCell.swift */,
+				4084ACB0249CA1C1005A203E /* EventTableViewCell.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4084ACAC249C9F95005A203E /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				409148B124960A6200791CA9 /* ImageCheckBoxes */,
+				403043B92493B797003A15D1 /* ChecklistTableViewCell.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		4084ACAD249C9FB1005A203E /* Museum Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				402C6050249B7993003FDF40 /* DonationStatisticsTableViewCell.swift */,
+				402C604A249B63E2003FDF40 /* MuseumChart.swift */,
+			);
+			path = "Museum Statistics";
+			sourceTree = "<group>";
+		};
+		409148B124960A6200791CA9 /* ImageCheckBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				409148AD2495DC8A00791CA9 /* ImageTableViewCell.swift */,
+				409148B92496644300791CA9 /* Villagers */,
+				409148B82496643D00791CA9 /* Rocks */,
+			);
+			path = ImageCheckBoxes;
+			sourceTree = "<group>";
+		};
+		409148B82496643D00791CA9 /* Rocks */ = {
+			isa = PBXGroup;
+			children = (
+				409148AF2495FB0300791CA9 /* RockCheckBoxTableViewCell.swift */,
+				409148B62496461400791CA9 /* RockCollectionViewCell.swift */,
+			);
+			path = Rocks;
+			sourceTree = "<group>";
+		};
+		409148B92496644300791CA9 /* Villagers */ = {
+			isa = PBXGroup;
+			children = (
+				403043B32493A779003A15D1 /* VillagerCheckBoxTableViewCell.swift */,
+				409148BA2496651900791CA9 /* VillagerCollectionViewCell.swift */,
+			);
+			path = Villagers;
+			sourceTree = "<group>";
+		};
+		40B66D8E247574DD007D5F59 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				401CFE2924AE06D2004BB43F /* Goal+CoreDataClass.swift */,
+				401CFE2A24AE06D2004BB43F /* Goal+CoreDataProperties.swift */,
+				4084ACA7249C8889005A203E /* Settings+CoreDataClass.swift */,
+				4084ACA8249C8889005A203E /* Settings+CoreDataProperties.swift */,
+				402C6040249B44C3003FDF40 /* Checklist+CoreDataClass.swift */,
+				402C6041249B44C3003FDF40 /* Checklist+CoreDataProperties.swift */,
+				402C6042249B44C3003FDF40 /* Rock+CoreDataClass.swift */,
+				402C6043249B44C3003FDF40 /* Rock+CoreDataProperties.swift */,
+				402C6034249B39A4003FDF40 /* Villager+CoreDataClass.swift */,
+				402C6035249B39A4003FDF40 /* Villager+CoreDataProperties.swift */,
+				4035B45724936EF4002DCFEB /* Bug+CoreDataClass.swift */,
+				4035B45824936EF4002DCFEB /* Bug+CoreDataProperties.swift */,
+				4035B45924936EF4002DCFEB /* Fish+CoreDataClass.swift */,
+				4035B45A24936EF4002DCFEB /* Fish+CoreDataProperties.swift */,
+				40B66D8F2475752F007D5F59 /* ACNH_Companion.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		40B66D9224757E85007D5F59 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				403B0DAA246F9F9F008B11F6 /* Category.swift */,
+				402C604C249B77E8003FDF40 /* DonationStatistic.swift */,
+				4084ACB2249CA6DD005A203E /* ACNHEvent.swift */,
+				401CFE2D24AE0F73004BB43F /* Priority.swift */,
+				40CA8BA624AF243100A6A2FB /* Resource.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		7F5B22B2720D3AA2A9D3163A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3222A53D3F78B561555EAF9 /* Pods_ACNH_Companion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E83BF01B886DB2982FB1F440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D336F1BB463F436BC746197 /* Pods-ACNH_Companion.debug.xcconfig */,
+				7A061E3E4B165BD3A58598A4 /* Pods-ACNH_Companion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40608982246EAD5A00DBF0A1 /* ACNH_Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40608999246EAD5B00DBF0A1 /* Build configuration list for PBXNativeTarget "ACNH_Companion" */;
+			buildPhases = (
+				AEA888DF803CF8B83C31C499 /* [CP] Check Pods Manifest.lock */,
+				4060897F246EAD5A00DBF0A1 /* Sources */,
+				40608980246EAD5A00DBF0A1 /* Frameworks */,
+				40608981246EAD5A00DBF0A1 /* Resources */,
+				C79A012ADFF51BB4E2AD4177 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACNH_Companion;
+			productName = ACNH_Companion;
+			productReference = 40608983246EAD5A00DBF0A1 /* ACNH_Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4060897B246EAD5A00DBF0A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = edu.monash;
+				TargetAttributes = {
+					40608982246EAD5A00DBF0A1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4060897E246EAD5A00DBF0A1 /* Build configuration list for PBXProject "ACNH_Companion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4060897A246EAD5A00DBF0A1;
+			productRefGroup = 40608984246EAD5A00DBF0A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40608982246EAD5A00DBF0A1 /* ACNH_Companion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40608981246EAD5A00DBF0A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40608995246EAD5B00DBF0A1 /* LaunchScreen.storyboard in Resources */,
+				40608992246EAD5B00DBF0A1 /* Assets.xcassets in Resources */,
+				40608990246EAD5A00DBF0A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEA888DF803CF8B83C31C499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACNH_Companion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79A012ADFF51BB4E2AD4177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACNH_Companion/Pods-ACNH_Companion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACNH_Companion/Pods-ACNH_Companion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACNH_Companion/Pods-ACNH_Companion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4060897F246EAD5A00DBF0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403B0D98246F7EB4008B11F6 /* VillagersTableViewController.swift in Sources */,
+				401CFE3024AE112B004BB43F /* CritterCurrentlyAvailableTableViewCell.swift in Sources */,
+				4084ACAF249CA1A8005A203E /* AllEventsTableViewCell.swift in Sources */,
+				4035B46024936EF4002DCFEB /* Fish+CoreDataProperties.swift in Sources */,
+				403B0D90246F7DE6008B11F6 /* HomeTableViewController.swift in Sources */,
+				401CFE2024ADDF4C004BB43F /* GoalsTableViewController.swift in Sources */,
+				4035B45F24936EF4002DCFEB /* Fish+CoreDataClass.swift in Sources */,
+				409148BB2496651900791CA9 /* VillagerCollectionViewCell.swift in Sources */,
+				4035B45E24936EF4002DCFEB /* Bug+CoreDataProperties.swift in Sources */,
+				4084ACB1249CA1C1005A203E /* EventTableViewCell.swift in Sources */,
+				403B0DA9246F9119008B11F6 /* CollectableTableViewCell.swift in Sources */,
+				4084ACAA249C8889005A203E /* Settings+CoreDataProperties.swift in Sources */,
+				403B0D96246F7E95008B11F6 /* MuseumTableViewController.swift in Sources */,
+				402C604D249B77E8003FDF40 /* DonationStatistic.swift in Sources */,
+				4035B44424933226002DCFEB /* BugData.swift in Sources */,
+				40CA8BA324AEF81900A6A2FB /* GoalEditorViewController.swift in Sources */,
+				401CFE2E24AE0F73004BB43F /* Priority.swift in Sources */,
+				4039B86024760A9E0013B2C4 /* CoreDataController.swift in Sources */,
+				401CFE2C24AE06D2004BB43F /* Goal+CoreDataProperties.swift in Sources */,
+				403B0DA4246F8DD0008B11F6 /* CritterDetailsTableViewCell.swift in Sources */,
+				4039B85A247609200013B2C4 /* MulticastDelegate.swift in Sources */,
+				403043BA2493B797003A15D1 /* ChecklistTableViewCell.swift in Sources */,
+				40608987246EAD5A00DBF0A1 /* AppDelegate.swift in Sources */,
+				40B66D912475752F007D5F59 /* ACNH_Companion.xcdatamodeld in Sources */,
+				4049F2E3246FF8A900CA5CAF /* VillagerTableViewCell.swift in Sources */,
+				40005987249BE27200A382F0 /* VillagerDetailsTableViewCell.swift in Sources */,
+				4084ACA9249C8889005A203E /* Settings+CoreDataClass.swift in Sources */,
+				403B0D9A246F7ECA008B11F6 /* IslandTableViewController.swift in Sources */,
+				40B66D89247515DF007D5F59 /* CritterTableViewController.swift in Sources */,
+				401CFE2B24AE06D2004BB43F /* Goal+CoreDataClass.swift in Sources */,
+				40608989246EAD5A00DBF0A1 /* SceneDelegate.swift in Sources */,
+				40B66D852475119D007D5F59 /* CritterDetailsTableViewController.swift in Sources */,
+				40CA8BA524AF240600A6A2FB /* AboutTableViewController.swift in Sources */,
+				403B0DA6246F8DF8008B11F6 /* CritterAvailabilityTableViewCell.swift in Sources */,
+				403B0D9E246F8CB4008B11F6 /* CategoryTableViewCell.swift in Sources */,
+				402C6045249B44C3003FDF40 /* Checklist+CoreDataProperties.swift in Sources */,
+				402C6051249B7993003FDF40 /* DonationStatisticsTableViewCell.swift in Sources */,
+				402C6044249B44C3003FDF40 /* Checklist+CoreDataClass.swift in Sources */,
+				4039B8552475F6EA0013B2C4 /* FishData.swift in Sources */,
+				409148B02495FB0300791CA9 /* RockCheckBoxTableViewCell.swift in Sources */,
+				402C6038249B39A4003FDF40 /* Villager+CoreDataClass.swift in Sources */,
+				409148B72496461400791CA9 /* RockCollectionViewCell.swift in Sources */,
+				40258A8E24927C9100CCB674 /* StringExtensions.swift in Sources */,
+				402C6039249B39A4003FDF40 /* Villager+CoreDataProperties.swift in Sources */,
+				40005989249BE29300A382F0 /* VillagerDetailsTableViewController.swift in Sources */,
+				409148AE2495DC8A00791CA9 /* ImageTableViewCell.swift in Sources */,
+				402C604B249B63E2003FDF40 /* MuseumChart.swift in Sources */,
+				4035B45D24936EF4002DCFEB /* Bug+CoreDataClass.swift in Sources */,
+				402C6047249B44C3003FDF40 /* Rock+CoreDataProperties.swift in Sources */,
+				403B0DAB246F9F9F008B11F6 /* Category.swift in Sources */,
+				402C6046249B44C3003FDF40 /* Rock+CoreDataClass.swift in Sources */,
+				403043B42493A779003A15D1 /* VillagerCheckBoxTableViewCell.swift in Sources */,
+				40FED7F324768BDC00766A8C /* VillagerData.swift in Sources */,
+				40CA8BA724AF243100A6A2FB /* Resource.swift in Sources */,
+				4039B85C247609B80013B2C4 /* DatabaseProtocol.swift in Sources */,
+				4084ACB3249CA6DD005A203E /* ACNHEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4060898E246EAD5A00DBF0A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4060898F246EAD5A00DBF0A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40608993246EAD5B00DBF0A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40608994246EAD5B00DBF0A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40608997246EAD5B00DBF0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40608998246EAD5B00DBF0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4060899A246EAD5B00DBF0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D336F1BB463F436BC746197 /* Pods-ACNH_Companion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACNH_Companion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monash.ACNH-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4060899B246EAD5B00DBF0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A061E3E4B165BD3A58598A4 /* Pods-ACNH_Companion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ACNH_Companion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.monash.ACNH-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4060897E246EAD5A00DBF0A1 /* Build configuration list for PBXProject "ACNH_Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40608997246EAD5B00DBF0A1 /* Debug */,
+				40608998246EAD5B00DBF0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40608999246EAD5B00DBF0A1 /* Build configuration list for PBXNativeTarget "ACNH_Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4060899A246EAD5B00DBF0A1 /* Debug */,
+				4060899B246EAD5B00DBF0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40B66D8F2475752F007D5F59 /* ACNH_Companion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40B66D902475752F007D5F59 /* ACNH_Companion.xcdatamodel */,
+			);
+			currentVersion = 40B66D902475752F007D5F59 /* ACNH_Companion.xcdatamodel */;
+			path = ACNH_Companion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4060897B246EAD5A00DBF0A1 /* Project object */;
+}

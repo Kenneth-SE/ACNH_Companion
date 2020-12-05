@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bug" representedClassName="Bug" syncable="YES">
+        <attribute name="discovered" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="donated" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isAllDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isAllYear" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="monthNorthern" optional="YES" attributeType="String"/>
+        <attribute name="monthSouthern" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nameUSen" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rarity" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Checklist" representedClassName="Checklist" syncable="YES">
+        <attribute name="digFossils" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="moneyTree" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nookStop" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pickUpItems" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="recyclingBin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="shakeTrees" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="turnipPrices" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Fish" representedClassName="Fish" syncable="YES">
+        <attribute name="discovered" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="donated" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isAllDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isAllYear" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="monthNorthern" optional="YES" attributeType="String"/>
+        <attribute name="monthSouthern" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nameUSen" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rarity" optional="YES" attributeType="String"/>
+        <attribute name="shadow" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Goal" representedClassName="Goal" syncable="YES">
+        <attribute name="goalDescription" optional="YES" attributeType="String"/>
+        <attribute name="highPriority" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lowPriority" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mediumPriority" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Rock" representedClassName="Rock" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mined" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="southHemisphere" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Villager" representedClassName="Villager" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="String"/>
+        <attribute name="birthdayStr" optional="YES" attributeType="String"/>
+        <attribute name="catchphrase" optional="YES" attributeType="String"/>
+        <attribute name="currentResident" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="favourite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nameUSen" optional="YES" attributeType="String"/>
+        <attribute name="personality" optional="YES" attributeType="String"/>
+        <attribute name="species" optional="YES" attributeType="String"/>
+        <attribute name="talkedTo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Bug" positionX="-54" positionY="90" width="128" height="238"/>
+        <element name="Checklist" positionX="-54" positionY="135" width="128" height="148"/>
+        <element name="Fish" positionX="-63" positionY="-18" width="128" height="253"/>
+        <element name="Goal" positionX="-54" positionY="135" width="128" height="103"/>
+        <element name="Rock" positionX="-54" positionY="135" width="128" height="73"/>
+        <element name="Settings" positionX="-54" positionY="90" width="128" height="73"/>
+        <element name="Villager" positionX="-45" positionY="81" width="128" height="223"/>
+    </elements>
+</model>

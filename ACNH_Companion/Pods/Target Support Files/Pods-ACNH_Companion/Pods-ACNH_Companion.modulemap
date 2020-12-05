@@ -1,0 +1,6 @@
+framework module Pods_ACNH_Companion {
+  umbrella header "Pods-ACNH_Companion-umbrella.h"
+
+  export *
+  module * { export * }
+}
