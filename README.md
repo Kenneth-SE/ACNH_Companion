@@ -1,7 +1,6 @@
 # Animal Crossing: New Horizons Companion App
 
 I was inspired to create this app to help users manage their islands and organise their goals.
-This project was made when ACNH was new to the Nintendo Switch.
 
 ## App Contents
 
@@ -23,7 +22,7 @@ This project was made when ACNH was new to the Nintendo Switch.
   - Contains a fully featured Goals page
   - Goals are grouped by priority for easier management
 
-### About Tab
+### About
   - Lists a brief summary of the app
   - Includes links and refererences used to create the product
 
